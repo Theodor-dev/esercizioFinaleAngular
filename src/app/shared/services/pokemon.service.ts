@@ -3,7 +3,6 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable, of } from 'rxjs';
 import { catchError, map } from 'rxjs/operators'
 import { PokemonStatus } from '../enums/enums';
-import { IPokemon, Pokemon } from '../model/pokemon.model';
 
 @Injectable({
   providedIn: 'root'
